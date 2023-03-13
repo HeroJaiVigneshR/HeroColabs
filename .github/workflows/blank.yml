@@ -27,6 +27,7 @@ jobs:
             echo "[$dir]: $colab_url" >> README.md
           done < file_list.txt
           echo "" >> README.md
+          cat README.md
         shell: bash
       - name: Commit README
         uses: stefanzweifel/git-auto-commit-action@v4
