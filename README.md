@@ -1,16 +1,17 @@
-# Collection of Notebook Tools
+# Hero Colabs
+## [1TamilMV Downloader](1TamilMV_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab1]
+[Colab1]:https://github.com/HeroBenHero/HeroColabs/tree/main/1TamilMV_Downloader.ipynb
+## [File Downloader](File_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab2]
+[Colab2]:https://github.com/HeroBenHero/HeroColabs/tree/main/File_Downloader.ipynb
+## [Google Drive Cloner](Google_Drive_Cloner.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab3]
+[Colab3]:https://github.com/HeroBenHero/HeroColabs/tree/main/Google_Drive_Cloner.ipynb
+## [IEEE Downloader](IEEE_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab4]
+[Colab4]:https://github.com/HeroBenHero/HeroColabs/tree/main/IEEE_Downloader.ipynb
+## [Seedr Video To GDriveipynb](Seedr_Video_To_GDriveipynb.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab5]
+[Colab5]:https://github.com/HeroBenHero/HeroColabs/tree/main/Seedr_Video_To_GDriveipynb.ipynb
+## [Torrenter](Torrenter.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab6]
+[Colab6]:https://github.com/HeroBenHero/HeroColabs/tree/main/Torrenter.ipynb
+## [Zip And UnZip](Zip_And_UnZip.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab7]
+[Colab7]:https://github.com/HeroBenHero/HeroColabs/tree/main/Zip_And_UnZip.ipynb
 
-This repository contains a collection of Jupyter Notebooks that can be used to perform various tasks such as downloading files, cloning Google Drive files, and more. The following notebooks are included:
-
-- `1TamilMV_Downloader.ipynb`: A notebook that can be used to download movies and TV shows from the 1TamilMV website.
-- `File_Downloader.ipynb`: A notebook that can be used to download files from a given URL.
-- `Google_Drive_Cloner.ipynb`: A notebook that can be used to clone Google Drive files from a given link.
-- `IEEE_Downloader.ipynb`: A notebook that can be used to download papers from the IEEE Xplore Digital Library.
-- `Seedr_Video_To_GDriveipynb.ipynb`: A notebook that can be used to transfer videos from Seedr to Google Drive.
-- `Torrenter.ipynb`: A notebook that can be used to download torrent files.
-- `Zip_And_UnZip.ipynb`: A notebook that can be used to zip and unzip files.
-
-## Usage
-
-To use these notebooks, you will need to have Jupyter Notebook installed on your system. You can install Jupyter Notebook using the following command:
-
+[Colab Badge]:https://colab.research.google.com/assets/colab-badge.svg
