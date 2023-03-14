@@ -8,6 +8,8 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -22,9 +24,11 @@ jobs:
           while read line; do
             dir=$(dirname "$line")
             filename=$(basename "$line")
+            filename="${filename/_/ }"  # replace underscore with space
+            filename="${filename%.ipynb}"  # remove the extension
             colab_url="https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/$line"
-            echo "## [$dir](https://github.com/HeroBenHero/HeroColabs/tree/main/$dir) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][$dir]" >> README.md
-            echo "[$dir]: $colab_url" >> README.md
+            echo "## [$filename](https://github.com/HeroBenHero/HeroColabs/tree/main/$line) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][$dir]" >> README.md
+            echo "[$filename]: $colab_url" >> README.md
           done < file_list.txt
           echo "" >> README.md
           cat README.md
