@@ -38,10 +38,11 @@ jobs:
           cat README.md
         shell: bash
       - name: Commit README
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update README.md"
-          commit_options: "--no-verify"
-          file_pattern: "README.md"
+        run: |
+          git config --local user.email "benjai10vignesh_ec@mepcoeng.ac.in"
+          git config --local user.name "HeroJaiVigneshR"
+          git add README.md
+          git commit -m "Update README.md" --no-verify
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
