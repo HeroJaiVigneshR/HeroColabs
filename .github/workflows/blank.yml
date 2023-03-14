@@ -24,13 +24,15 @@ jobs:
           while read line; do
             dir=$(dirname "$line")
             filename=$(basename "$line")
-            filename="${filename/_/ }"  # replace underscore with space
+            file_ipynb=$filename
             filename="${filename%.ipynb}"  # remove the extension
+            file_name=$filename
+            filename="${filename/_/ }"  # replace underscore with space
             colab_url="https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/$line"
-            echo "## [$filename](https://github.com/HeroBenHero/HeroColabs/tree/main/$line) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][$dir]" >> README.md
-            echo "[$filename]: $colab_url" >> README.md
+            echo "## [$filename]($file_name/$file_ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][https://github.com/HeroBenHero/HeroColabs/tree/main/$line]" >> README.md
           done < file_list.txt
           echo "" >> README.md
+          echo "[Colab Badge]:https://colab.research.google.com/assets/colab-badge.svg" >> README.md
           cat README.md
         shell: bash
       - name: Commit README
