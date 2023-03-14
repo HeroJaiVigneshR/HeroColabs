@@ -1,24 +1,17 @@
-# HeroBenHero
+# Hero Colabs
+## [1TamilMV Downloader](1TamilMV_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab1]
+[Colab1]:https://github.com/HeroBenHero/HeroColabs/tree/main/1TamilMV_Downloader.ipynb
+## [File Downloader](File_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab2]
+[Colab2]:https://github.com/HeroBenHero/HeroColabs/tree/main/File_Downloader.ipynb
+## [Google Drive Cloner](Google_Drive_Cloner.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab3]
+[Colab3]:https://github.com/HeroBenHero/HeroColabs/tree/main/Google_Drive_Cloner.ipynb
+## [IEEE Downloader](IEEE_Downloader.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab4]
+[Colab4]:https://github.com/HeroBenHero/HeroColabs/tree/main/IEEE_Downloader.ipynb
+## [Seedr Video To GDriveipynb](Seedr_Video_To_GDriveipynb.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab5]
+[Colab5]:https://github.com/HeroBenHero/HeroColabs/tree/main/Seedr_Video_To_GDriveipynb.ipynb
+## [Torrenter](Torrenter.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab6]
+[Colab6]:https://github.com/HeroBenHero/HeroColabs/tree/main/Torrenter.ipynb
+## [Zip And UnZip](Zip_And_UnZip.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab7]
+[Colab7]:https://github.com/HeroBenHero/HeroColabs/tree/main/Zip_And_UnZip.ipynb
 
-This repository contains various Python scripts created by HeroBenHero.
-
-## Files
-
-| Type | Name | Latest commit message | Commit time |
-|------|------|----------------------|-------------|
-| Notebook | 1TamilMV_Downloader.ipynb | Created using Colaboratory | 2 days ago |
-| Notebook | File_Downloader.ipynb | Created using Colaboratory | 10 months ago |
-| Notebook | Google_Drive_Cloner.ipynb | Created using Colaboratory | 10 months ago |
-| Notebook | IEEE_Downloader.ipynb | Created using Colaboratory | 2 weeks ago |
-| Markdown | README.md | Update README.md | last year |
-| Notebook | Seedr_Video_To_GDriveipynb.ipynb | Created using Colaboratory | 9 months ago |
-| Notebook | Torrenter.ipynb | Created using Colaboratory | 9 months ago |
-| Notebook | Zip_And_UnZip.ipynb | Created using Colaboratory | 4 months ago |
-
-## Usage
-
-You are welcome to use any of these scripts for your own projects. Please keep in mind that some of these scripts may be designed for specific use cases and may need to be modified for your own use.
-
-## License
-
-All scripts in this repository are licensed under the [MIT License](LICENSE).```
+[Colab Badge]:https://colab.research.google.com/assets/colab-badge.svg
