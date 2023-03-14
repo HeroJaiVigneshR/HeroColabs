@@ -21,6 +21,7 @@ jobs:
       - name: Update README
         run: |
           echo "# Hero Colabs" > README.md
+          file=1
           while read line; do
             dir=$(dirname "$line")
             filename=$(basename "$line")
@@ -28,7 +29,9 @@ jobs:
             file_name=$filename
             filename="${filename/_/ }"  # replace underscore with space
             colab_url="https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/$line"
-            echo "## [$filename]($file_ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][https://github.com/HeroBenHero/HeroColabs/tree/main/$line]" >> README.md
+            echo "## [$filename]($line) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab$file]" >> README.md
+            echo "[Colab$file]:https://github.com/HeroBenHero/HeroColabs/tree/main/$line" >> README.md
+            ((file++))
           done < file_list.txt
           echo "" >> README.md
           echo "[Colab Badge]:https://colab.research.google.com/assets/colab-badge.svg" >> README.md
