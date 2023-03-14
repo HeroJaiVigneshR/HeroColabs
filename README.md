@@ -14,4 +14,3 @@
 ## [Zip And_UnZip](https://github.com/HeroBenHero/HeroColabs/tree/main/Zip_And_UnZip.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][.]
 [Zip And_UnZip]: https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/Zip_And_UnZip.ipynb
 
-[Colab Badge]:          https://colab.research.google.com/assets/colab-badge.svg
