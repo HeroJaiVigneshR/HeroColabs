@@ -27,7 +27,7 @@ jobs:
             filename=$(basename "$line")
             filename="${filename%.ipynb}"  # remove the extension
             file_name=$filename
-            filename="${filename/_/ }"  # replace underscore with space
+            filename="${filename//_/ }"  # replace underscore with space
             colab_url="https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/$line"
             echo "## [$filename]($line) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][Colab$file]" >> README.md
             echo "[Colab$file]:https://github.com/HeroBenHero/HeroColabs/tree/main/$line" >> README.md
