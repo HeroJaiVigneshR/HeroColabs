@@ -20,8 +20,5 @@
 ## [Zip And UnZip](Zip_And_UnZip.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][ZAU]
 [ZAU]:Zip_And_UnZip.ipynb
 
-## [test](test.ipynb) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][T]
-[T]:test.ipynb
-
 
 [Colab Badge]:https://colab.research.google.com/assets/colab-badge.svg
