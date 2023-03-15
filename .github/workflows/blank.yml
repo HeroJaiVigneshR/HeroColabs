@@ -29,9 +29,9 @@ jobs:
             file_name=$filename
             filename="${filename//_/ }"  # replace underscore with space
             acronym=$(echo "$filename" | awk '{for(i=1;i<=NF;i++){printf "%s",toupper(substr($i,1,1))}}')
-            colab_url="https://colab.research.google.com/github/HeroBenHero/HeroColabs/blob/main/$line"
             echo "## [$filename]($line) &nbsp;&nbsp; [![Open in Colab][Colab Badge]][$acronym]" >> README.md
-            echo "[$acronym]:https://github.com/HeroBenHero/HeroColabs/tree/main/$line" >> README.md
+            echo "[$acronym]:$line" >> README.md
+            echo "" >> README.md
             ((file++))
           done < file_list.txt
           echo "" >> README.md
