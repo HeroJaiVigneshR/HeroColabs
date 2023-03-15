@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '*.ipynb'
 
 jobs:
   update-readme:
