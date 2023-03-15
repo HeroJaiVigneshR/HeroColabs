@@ -46,5 +46,6 @@ jobs:
           commit_message: "Update README.md"
           commit_options: "--no-verify"
           file_pattern: "README.md"
+          config: "user.name=HeroBenHero\nuser.email=benjai10vignesh@gmail.com"
         env:
           GITHUB_TOKEN: ${{ secrets.TOKEN }}
